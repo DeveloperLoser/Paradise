@@ -1,42 +1,27 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "aH" = (
-/obj/structure/window/reinforced{
-	dir = 4
-	},
-/obj/structure/table/wood,
-/obj/item/resonator/upgraded,
-/turf/simulated/floor/mineral/titanium/yellow,
+/obj/structure/fans/tiny,
+/obj/machinery/door/airlock/titanium,
+/turf/simulated/floor/plating,
 /area/shuttle/freegolem)
 "aM" = (
-/obj/structure/table/wood,
-/obj/item/storage/firstaid/adv,
-/obj/item/storage/firstaid/adv,
-/turf/simulated/floor/mineral/titanium/purple,
-/area/shuttle/freegolem)
-"bo" = (
-/obj/machinery/light/small,
 /obj/structure/closet/crate/golemgear,
 /turf/simulated/floor/plating,
 /area/shuttle/freegolem)
-"bQ" = (
+"bo" = (
+/obj/structure/shuttle/engine/heater{
+	dir = 4
+	},
 /obj/structure/window/reinforced{
 	dir = 8
 	},
-/obj/structure/window/reinforced,
-/obj/structure/table/wood,
-/obj/item/resonator,
-/turf/simulated/floor/mineral/titanium/yellow,
+/turf/simulated/floor/plating,
+/area/shuttle/freegolem)
+"bQ" = (
+/obj/machinery/vending/hydronutrients,
+/turf/simulated/floor/mineral/titanium/purple,
 /area/shuttle/freegolem)
 "ci" = (
-/obj/structure/window/reinforced{
-	dir = 4
-	},
-/obj/structure/window/reinforced,
-/obj/structure/table/wood,
-/obj/item/resonator,
-/turf/simulated/floor/mineral/titanium/yellow,
-/area/shuttle/freegolem)
-"cV" = (
 /obj/machinery/vending/hydroseeds,
 /obj/machinery/light{
 	dir = 1;
@@ -44,65 +29,62 @@
 	},
 /turf/simulated/floor/mineral/titanium/purple,
 /area/shuttle/freegolem)
-"dh" = (
-/turf/simulated/wall/mineral/titanium/nodiagonal,
-/area/shuttle/freegolem)
-"dN" = (
-/obj/structure/window/reinforced{
-	dir = 8
-	},
-/obj/structure/window/reinforced{
-	dir = 1
+"cV" = (
+/obj/machinery/light{
+	dir = 1;
+	on = 1
 	},
 /obj/structure/table/wood,
 /obj/item/resonator,
-/turf/simulated/floor/mineral/titanium/yellow,
-/area/shuttle/freegolem)
-"fr" = (
-/obj/machinery/vending/snack/free,
-/obj/machinery/light,
 /turf/simulated/floor/mineral/titanium/purple,
 /area/shuttle/freegolem)
-"fT" = (
+"dh" = (
+/turf/simulated/wall/mineral/titanium/nodiagonal,
+/area/shuttle/freegolem)
+"du" = (
+/obj/structure/table,
+/turf/simulated/floor/mineral/titanium/blue,
+/area/shuttle/freegolem)
+"dN" = (
+/obj/structure/table/wood,
+/obj/item/resonator,
+/turf/simulated/floor/mineral/titanium/purple,
+/area/shuttle/freegolem)
+"fr" = (
+/obj/machinery/light{
+	dir = 1;
+	on = 1
+	},
+/obj/structure/reagent_dispensers/watertank/high,
+/turf/simulated/floor/mineral/titanium/purple,
+/area/shuttle/freegolem)
+"il" = (
+/obj/structure/reagent_dispensers/fueltank,
+/turf/simulated/floor/mineral/titanium/purple,
+/area/shuttle/freegolem)
+"iv" = (
+/obj/machinery/light/small{
+	dir = 1
+	},
+/obj/structure/ore_box,
 /turf/simulated/floor/plating,
 /area/shuttle/freegolem)
 "jV" = (
-/obj/structure/table/wood,
-/obj/item/disk/design_disk/golem_shell,
-/obj/item/areaeditor/golem,
-/turf/simulated/floor/mineral/titanium/purple,
-/area/shuttle/freegolem)
-"ml" = (
-/turf/simulated/floor/mineral/titanium/blue,
-/area/shuttle/freegolem)
-"mG" = (
-/obj/machinery/light/small,
-/turf/simulated/floor/mineral/titanium/blue,
-/area/shuttle/freegolem)
-"mV" = (
-/obj/structure/chair/comfy/purp{
-	dir = 8
+/obj/machinery/light{
+	dir = 4;
+	on = 1
 	},
 /turf/simulated/floor/mineral/titanium/purple,
 /area/shuttle/freegolem)
-"oS" = (
-/obj/structure/closet/crate/golemgear,
-/turf/simulated/floor/plating,
-/area/shuttle/freegolem)
-"oW" = (
-/obj/machinery/mineral/ore_redemption/golem,
+"mG" = (
+/obj/structure/table/reinforced,
+/obj/machinery/light{
+	dir = 1;
+	on = 1
+	},
 /turf/simulated/floor/mineral/titanium/purple,
 /area/shuttle/freegolem)
-"qm" = (
-/obj/structure/table/wood,
-/obj/machinery/reagentgrinder,
-/turf/simulated/floor/mineral/titanium/purple,
-/area/shuttle/freegolem)
-"qI" = (
-/obj/machinery/vending/coffee/free,
-/turf/simulated/floor/mineral/titanium/purple,
-/area/shuttle/freegolem)
-"qJ" = (
+"mV" = (
 /obj/structure/window/reinforced{
 	dir = 8
 	},
@@ -110,72 +92,68 @@
 /obj/structure/computerframe,
 /turf/simulated/floor/mineral/titanium/purple,
 /area/shuttle/freegolem)
+"nb" = (
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/structure/table/wood,
+/obj/item/resonator/upgraded,
+/turf/simulated/floor/mineral/titanium/yellow,
+/area/shuttle/freegolem)
+"on" = (
+/obj/structure/ore_box,
+/turf/simulated/floor/plating,
+/area/shuttle/freegolem)
+"oW" = (
+/obj/structure/chair/comfy/purp{
+	dir = 8
+	},
+/turf/simulated/floor/mineral/titanium/purple,
+/area/shuttle/freegolem)
+"pD" = (
+/obj/machinery/light,
+/turf/simulated/floor/mineral/titanium/blue,
+/area/shuttle/freegolem)
+"qm" = (
+/obj/effect/mob_spawn/human/golem/adamantine,
+/turf/simulated/floor/mineral/titanium/purple,
+/area/shuttle/freegolem)
+"qI" = (
+/obj/structure/fans/tiny,
+/obj/machinery/door/airlock/titanium,
+/obj/machinery/door/airlock/titanium,
+/turf/simulated/floor/mineral/titanium/purple,
+/area/shuttle/freegolem)
+"qJ" = (
+/obj/structure/computerframe,
+/obj/structure/table/reinforced,
+/turf/simulated/floor/mineral/titanium/purple,
+/area/shuttle/freegolem)
+"rB" = (
+/obj/machinery/door/airlock/titanium,
+/turf/simulated/floor/mineral/titanium/purple,
+/area/shuttle/freegolem)
+"sw" = (
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/obj/structure/table/wood,
+/obj/item/resonator,
+/turf/simulated/floor/mineral/titanium/yellow,
+/area/shuttle/freegolem)
 "th" = (
 /obj/effect/spawner/window/shuttle,
 /turf/simulated/floor/plating,
 /area/shuttle/freegolem)
 "us" = (
-/turf/simulated/floor/mineral/titanium/yellow,
+/obj/structure/table/wood,
+/obj/item/resonator/upgraded,
+/turf/simulated/floor/mineral/titanium/purple,
 /area/shuttle/freegolem)
 "wk" = (
-/obj/machinery/light,
-/turf/simulated/floor/mineral/titanium/purple,
-/area/shuttle/freegolem)
-"xY" = (
-/obj/structure/table/wood,
-/obj/structure/window/reinforced{
-	dir = 1
-	},
-/obj/structure/window/reinforced{
-	dir = 4
-	},
-/obj/item/resonator,
-/turf/simulated/floor/mineral/titanium/yellow,
-/area/shuttle/freegolem)
-"ze" = (
-/obj/structure/fans/tiny,
-/obj/machinery/door/airlock/titanium,
-/turf/simulated/floor/plating,
-/area/shuttle/freegolem)
-"zr" = (
-/obj/structure/fans/tiny,
-/turf/simulated/floor/mineral/titanium/purple,
-/area/shuttle/freegolem)
-"zI" = (
-/obj/structure/window/reinforced{
-	dir = 8
-	},
-/obj/structure/window/reinforced{
-	dir = 1
-	},
-/obj/structure/computerframe,
-/turf/simulated/floor/mineral/titanium/purple,
-/area/shuttle/freegolem)
-"As" = (
-/obj/machinery/light/small{
-	dir = 1
-	},
-/obj/structure/ore_box,
-/turf/simulated/floor/plating,
-/area/shuttle/freegolem)
-"AD" = (
-/obj/structure/table/wood,
-/obj/item/storage/firstaid/brute,
-/obj/item/storage/firstaid/brute,
-/obj/item/storage/firstaid/brute,
-/turf/simulated/floor/mineral/titanium/purple,
-/area/shuttle/freegolem)
-"AI" = (
-/obj/structure/window/reinforced{
-	dir = 8
-	},
-/obj/structure/table/wood,
-/turf/simulated/floor/mineral/titanium/yellow,
-/area/shuttle/freegolem)
-"BN" = (
-/turf/simulated/floor/plating/asteroid/basalt/lava_land_surface,
-/area/ruin/powered/golem_ship)
-"CQ" = (
 /obj/structure/table/wood,
 /obj/item/bedsheet/rd/royal_cape{
 	layer = 3;
@@ -189,94 +167,90 @@
 	},
 /turf/simulated/floor/mineral/titanium/yellow,
 /area/shuttle/freegolem)
-"Fm" = (
-/obj/structure/shuttle/engine/heater{
-	dir = 4
-	},
+"xM" = (
+/obj/structure/reagent_dispensers/watertank/high,
+/turf/simulated/floor/plating,
+/area/shuttle/freegolem)
+"xZ" = (
 /obj/structure/window/reinforced{
 	dir = 8
 	},
-/turf/simulated/floor/plating,
+/obj/structure/table/wood,
+/turf/simulated/floor/mineral/titanium/yellow,
 /area/shuttle/freegolem)
-"Fp" = (
+"yU" = (
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/structure/window/reinforced,
+/obj/structure/table/wood,
+/obj/item/resonator,
+/turf/simulated/floor/mineral/titanium/yellow,
+/area/shuttle/freegolem)
+"zr" = (
 /obj/structure/shuttle/engine/propulsion{
 	dir = 4;
 	icon_state = "burst_l"
 	},
 /turf/simulated/floor/plating,
 /area/shuttle/freegolem)
-"Fv" = (
-/obj/structure/fans/tiny,
-/obj/machinery/door/airlock/multi_tile/glass{
-	dir = 1
+"zF" = (
+/turf/simulated/floor/mineral/titanium/yellow,
+/area/shuttle/freegolem)
+"zI" = (
+/obj/structure/table/wood,
+/obj/item/bedsheet/rd/royal_cape{
+	layer = 3;
+	pixel_x = 5;
+	pixel_y = 9
+	},
+/obj/item/book/manual/research_and_development{
+	name = "Sacred Text of the Liberator";
+	pixel_x = -4;
+	pixel_y = 3
 	},
 /turf/simulated/floor/mineral/titanium/purple,
 /area/shuttle/freegolem)
-"Ge" = (
-/obj/machinery/door/airlock/titanium,
-/turf/simulated/floor/mineral/titanium/blue,
-/area/shuttle/freegolem)
-"HE" = (
-/obj/structure/computerframe,
-/obj/structure/table/reinforced,
+"As" = (
+/obj/machinery/mineral/ore_redemption/golem,
 /turf/simulated/floor/mineral/titanium/purple,
 /area/shuttle/freegolem)
-"Ih" = (
-/obj/machinery/vending/hydronutrients,
+"AD" = (
+/obj/machinery/mineral/equipment_vendor/golem,
 /turf/simulated/floor/mineral/titanium/purple,
 /area/shuttle/freegolem)
-"JS" = (
-/obj/structure/reagent_dispensers/watertank/high,
-/turf/simulated/floor/plating,
-/area/shuttle/freegolem)
-"Kq" = (
-/obj/machinery/computer/shuttle/golem_ship/recall,
+"AI" = (
+/obj/docking_port/stationary{
+	area_type = /area/ruin/powered/golem_ship;
+	dir = 8;
+	dwidth = 8;
+	height = 20;
+	id = "freegolem_lavaland";
+	name = "Lavaland Surface";
+	turf_type = /turf/simulated/floor/plating/asteroid/basalt/lava_land_surface;
+	width = 16
+	},
+/obj/docking_port/mobile{
+	dir = 8;
+	dwidth = 8;
+	height = 20;
+	id = "freegolem";
+	name = "Free Golem Ship";
+	width = 16
+	},
+/turf/template_noop,
+/area/template_noop)
+"BN" = (
 /turf/simulated/floor/plating/asteroid/basalt/lava_land_surface,
 /area/ruin/powered/golem_ship)
-"Ms" = (
-/obj/machinery/door/airlock/titanium,
-/turf/simulated/floor/mineral/titanium/purple,
-/area/shuttle/freegolem)
-"NP" = (
-/obj/item/reagent_containers/spray/cleaner,
-/obj/item/storage/toolbox/mechanical,
-/turf/simulated/floor/mineral/titanium/purple,
-/area/shuttle/freegolem)
-"Oc" = (
-/obj/structure/ore_box,
-/turf/simulated/floor/plating,
-/area/shuttle/freegolem)
-"Pd" = (
-/obj/machinery/autolathe,
-/turf/simulated/floor/mineral/titanium/purple,
-/area/shuttle/freegolem)
-"Px" = (
-/turf/simulated/floor/mineral/titanium/purple,
-/area/shuttle/freegolem)
-"Re" = (
+"CQ" = (
 /obj/machinery/light{
 	dir = 1;
 	on = 1
 	},
 /turf/simulated/floor/mineral/titanium/purple,
 /area/shuttle/freegolem)
-"RS" = (
-/obj/effect/mob_spawn/human/golem/adamantine,
-/turf/simulated/floor/mineral/titanium/yellow,
-/area/shuttle/freegolem)
-"UR" = (
-/obj/structure/table/reinforced,
-/turf/simulated/floor/mineral/titanium/purple,
-/area/shuttle/freegolem)
-"Wd" = (
-/obj/structure/table/wood,
-/obj/item/storage/firstaid/fire,
-/obj/item/storage/firstaid/fire,
-/obj/item/storage/firstaid/fire,
-/obj/machinery/light,
-/turf/simulated/floor/mineral/titanium/purple,
-/area/shuttle/freegolem)
-"WW" = (
+"DT" = (
 /obj/docking_port/stationary{
 	area_type = /area/ruin/powered/golem_ship;
 	dir = 8;
@@ -297,22 +271,163 @@
 	},
 /turf/simulated/wall/mineral/titanium/nodiagonal,
 /area/shuttle/freegolem)
-"XM" = (
+"Fv" = (
+/obj/structure/fans/tiny,
+/obj/machinery/door/airlock/titanium,
+/turf/simulated/floor/mineral/titanium/purple,
+/area/shuttle/freegolem)
+"FU" = (
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/structure/window/reinforced,
+/obj/structure/table/wood,
+/obj/item/resonator,
+/turf/simulated/floor/mineral/titanium/yellow,
+/area/shuttle/freegolem)
+"Gc" = (
+/obj/structure/table/wood,
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/item/resonator,
+/turf/simulated/floor/mineral/titanium/yellow,
+/area/shuttle/freegolem)
+"Ge" = (
+/obj/effect/mob_spawn/human/golem/adamantine,
+/turf/simulated/floor/mineral/titanium/yellow,
+/area/shuttle/freegolem)
+"GI" = (
+/turf/simulated/floor/mineral/titanium/blue,
+/area/shuttle/freegolem)
+"HE" = (
+/obj/structure/table/reinforced,
+/obj/machinery/light,
+/turf/simulated/floor/mineral/titanium/purple,
+/area/shuttle/freegolem)
+"Ih" = (
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/obj/structure/computerframe,
+/turf/simulated/floor/mineral/titanium/purple,
+/area/shuttle/freegolem)
+"Ii" = (
 /obj/machinery/light/small{
 	dir = 1
 	},
+/turf/simulated/floor/plating,
+/area/shuttle/freegolem)
+"Jq" = (
+/obj/machinery/recycler,
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/turf/simulated/floor/mineral/titanium/purple,
+/area/shuttle/freegolem)
+"JS" = (
+/turf/simulated/floor/plating/asteroid/basalt/lava_land_surface,
+/area/template_noop)
+"Kj" = (
+/obj/structure/table/wood,
+/obj/item/disk/design_disk/golem_shell,
+/obj/item/areaeditor/golem,
+/turf/simulated/floor/mineral/titanium/purple,
+/area/shuttle/freegolem)
+"Kq" = (
+/obj/machinery/autolathe,
+/turf/simulated/floor/mineral/titanium/purple,
+/area/shuttle/freegolem)
+"MU" = (
+/obj/machinery/light/small,
+/obj/structure/closet/crate/golemgear,
+/turf/simulated/floor/plating,
+/area/shuttle/freegolem)
+"No" = (
+/obj/machinery/light{
+	dir = 1;
+	on = 1
+	},
 /turf/simulated/floor/mineral/titanium/blue,
+/area/shuttle/freegolem)
+"NB" = (
+/obj/structure/reagent_dispensers/fueltank,
+/turf/simulated/floor/plating,
+/area/shuttle/freegolem)
+"NP" = (
+/turf/simulated/floor/plating,
+/area/shuttle/freegolem)
+"Oc" = (
+/obj/machinery/vending/coffee/free,
+/turf/simulated/floor/mineral/titanium/purple,
+/area/shuttle/freegolem)
+"OO" = (
+/obj/machinery/computer/shuttle/golem_ship/recall,
+/turf/simulated/floor/plating/asteroid/basalt/lava_land_surface,
+/area/ruin/powered/golem_ship)
+"Pd" = (
+/obj/machinery/vending/snack/free,
+/obj/machinery/light,
+/turf/simulated/floor/mineral/titanium/purple,
+/area/shuttle/freegolem)
+"Px" = (
+/turf/simulated/floor/mineral/titanium/purple,
+/area/shuttle/freegolem)
+"Re" = (
+/obj/machinery/hydroponics/constructable,
+/turf/simulated/floor/mineral/titanium/blue,
+/area/shuttle/freegolem)
+"RS" = (
+/obj/machinery/door/airlock/titanium,
+/turf/simulated/floor/mineral/titanium/blue,
+/area/shuttle/freegolem)
+"TX" = (
+/obj/machinery/light,
+/turf/simulated/floor/mineral/titanium/purple,
+/area/shuttle/freegolem)
+"UR" = (
+/obj/structure/table/reinforced,
+/turf/simulated/floor/mineral/titanium/purple,
+/area/shuttle/freegolem)
+"Wd" = (
+/obj/structure/table/wood,
+/obj/item/storage/firstaid/brute,
+/obj/item/storage/firstaid/brute,
+/obj/item/storage/firstaid/brute,
+/turf/simulated/floor/mineral/titanium/purple,
+/area/shuttle/freegolem)
+"WW" = (
+/obj/structure/table/wood,
+/obj/item/storage/firstaid/fire,
+/obj/item/storage/firstaid/fire,
+/obj/item/storage/firstaid/fire,
+/obj/machinery/light,
+/turf/simulated/floor/mineral/titanium/purple,
+/area/shuttle/freegolem)
+"XM" = (
+/obj/structure/table/wood,
+/obj/item/storage/firstaid/adv,
+/obj/item/storage/firstaid/adv,
+/turf/simulated/floor/mineral/titanium/purple,
 /area/shuttle/freegolem)
 "Zl" = (
 /turf/template_noop,
 /area/template_noop)
 "Zp" = (
-/obj/machinery/mineral/equipment_vendor/golem,
+/obj/item/reagent_containers/spray/cleaner,
+/obj/item/storage/toolbox/mechanical,
 /turf/simulated/floor/mineral/titanium/purple,
 /area/shuttle/freegolem)
 "ZQ" = (
-/obj/structure/reagent_dispensers/fueltank,
-/turf/simulated/floor/plating,
+/obj/structure/table/wood,
+/obj/machinery/reagentgrinder,
+/turf/simulated/floor/mineral/titanium/purple,
 /area/shuttle/freegolem)
 
 (1,1,1) = {"
@@ -324,6 +439,25 @@ Zl
 Zl
 Zl
 Zl
+Zl
+Zl
+Zl
+Zl
+Zl
+Zl
+Zl
+Zl
+Zl
+Zl
+Zl
+JS
+JS
+JS
+Zl
+Zl
+Zl
+Zl
+Zl
 dh
 th
 th
@@ -331,9 +465,6 @@ th
 th
 th
 dh
-Zl
-Zl
-Zl
 Zl
 Zl
 Zl
@@ -349,16 +480,32 @@ Zl
 Zl
 Zl
 Zl
+Zl
+Zl
+Zl
+Zl
+Zl
+Zl
+Zl
+Zl
+Zl
+Zl
+Zl
+JS
+JS
+JS
+Zl
+Zl
+Zl
+Zl
+Zl
 th
+mG
 UR
+qJ
 UR
 HE
-UR
-UR
 th
-Zl
-Zl
-Zl
 Zl
 Zl
 Zl
@@ -372,18 +519,34 @@ Zl
 Zl
 Zl
 Zl
+dh
+th
+th
+th
+th
+th
+dh
+Zl
+Zl
+Zl
+Zl
+Zl
+Zl
+JS
+JS
+JS
+Zl
+Zl
+Zl
 Zl
 Zl
 th
+UR
 Px
+oW
 Px
-mV
-Px
-Px
+UR
 th
-Zl
-Zl
-Zl
 Zl
 Zl
 Zl
@@ -397,18 +560,34 @@ Zl
 Zl
 Zl
 Zl
-Zl
-Zl
 th
+mG
+UR
 qJ
-Px
-Px
-Px
-zI
+UR
+HE
 th
 Zl
 Zl
 Zl
+Zl
+Zl
+Zl
+JS
+JS
+JS
+Zl
+Zl
+Zl
+Zl
+Zl
+th
+mV
+Px
+Px
+Px
+Ih
+th
 Zl
 Zl
 Zl
@@ -422,19 +601,35 @@ Zl
 Zl
 Zl
 Zl
+th
+UR
+Px
+oW
+Px
+UR
+th
+Zl
+Zl
+Zl
+Zl
+Zl
+Zl
+JS
+JS
+JS
+Zl
+Zl
+Zl
 Zl
 dh
 dh
-mV
+oW
 Px
 Px
 Px
-mV
+oW
 dh
 dh
-Zl
-Zl
-Zl
 Zl
 Zl
 Zl
@@ -447,457 +642,764 @@ Zl
 Zl
 Zl
 Zl
-Zl
-dh
+th
+mV
+Px
+Px
+Px
 Ih
-Px
-Px
-Px
-Px
-Px
-qI
+th
+Zl
+Zl
+Zl
+Zl
+Zl
+Zl
+JS
+JS
+JS
+Zl
+Zl
+Zl
+Zl
 dh
-Zl
-Zl
-Zl
+bQ
+Px
+Px
+Px
+Px
+Px
+Oc
+dh
 Zl
 Zl
 Zl
 Zl
 "}
 (7,1,1) = {"
-Zl
-Zl
-Zl
-Zl
-dh
-th
-dh
-dh
-cV
-Px
-Px
-Px
-Px
-Px
-fr
-dh
-dh
-th
-dh
-Zl
-Zl
-Zl
-Zl
-"}
-(8,1,1) = {"
-Zl
-Zl
-Zl
-Zl
-dh
-ml
-ml
-dh
-Px
-Px
-dN
-AI
-bQ
-Px
-Px
-dh
-ml
-ml
-dh
-Zl
-Zl
-Zl
-Zl
-"}
-(9,1,1) = {"
-Zl
-Zl
-Zl
-Zl
-th
-ml
-ml
-dh
-Px
-Px
-RS
-us
-RS
-Px
-Px
-dh
-ml
-ml
-th
-Zl
-Zl
-Zl
-Zl
-"}
-(10,1,1) = {"
-Zl
-Zl
-Zl
-Zl
-th
-ml
-ml
-dh
-Re
-Px
-us
-CQ
-us
-Px
-wk
-dh
-ml
-ml
-th
-Zl
-Zl
-Zl
-Zl
-"}
-(11,1,1) = {"
-Zl
-Zl
-Zl
-Zl
-th
-ml
-ml
-Ge
-Px
-Px
-RS
-us
-RS
-Px
-Px
-Ge
-ml
-ml
-th
-Zl
-Zl
-Zl
-Zl
-"}
-(12,1,1) = {"
-Zl
-Zl
-Zl
-Zl
-th
-ml
-ml
-Ge
-Px
-Px
-xY
-aH
-ci
-Px
-Px
-Ge
-ml
-ml
-th
-Zl
-Zl
-Zl
-Zl
-"}
-(13,1,1) = {"
-Zl
-Zl
-Zl
-Zl
-th
-ml
-mG
-dh
-Re
-Px
-Px
-Px
-Px
-Px
-wk
-dh
-XM
-ml
-th
-Zl
-Zl
-Zl
-Zl
-"}
-(14,1,1) = {"
-Zl
-Zl
-Zl
-Zl
-dh
-ml
-ml
-dh
-Px
-Px
-Px
-Px
-Px
-Px
-Px
-dh
-ml
-ml
-dh
-Zl
-Zl
-Zl
-Zl
-"}
-(15,1,1) = {"
-Zl
-Zl
-Zl
-dh
-dh
-dh
-dh
-dh
-dh
-dh
-Px
-Pd
-Px
-dh
-dh
-dh
 dh
 dh
 dh
 dh
 Zl
-Zl
-Zl
-"}
-(16,1,1) = {"
-Zl
-Zl
-Zl
 dh
-oS
-fT
-oS
 dh
-Px
-Px
-Px
-Px
-Px
-Px
-Px
-dh
-Oc
-fT
-Oc
-dh
-Zl
-Zl
-Zl
-"}
-(17,1,1) = {"
-Zl
-Zl
-Zl
-dh
-oS
-fT
-bo
-dh
-Re
-Px
-Px
-Px
-Px
-Px
-wk
-dh
-As
-fT
-Oc
-dh
-Zl
-Zl
-Zl
-"}
-(18,1,1) = {"
-Zl
-Zl
-Zl
-ze
-fT
-fT
-fT
-Ms
-Px
-Px
-Px
-Px
-Px
-Px
-Px
-Ms
-fT
-fT
-fT
-ze
-Zl
-Zl
-Zl
-"}
-(19,1,1) = {"
-Zl
-Zl
-Zl
-ze
-fT
-fT
-fT
-Ms
-Px
-Px
-Px
 oW
 Px
 Px
 Px
-Ms
-fT
-fT
-fT
-ze
-Zl
-Zl
-Zl
-"}
-(20,1,1) = {"
-Zl
-Zl
+oW
+dh
+dh
 Zl
 dh
-oS
-fT
-oS
+dh
+dh
+dh
+JS
+JS
+JS
+Zl
+dh
+th
+dh
+dh
+ci
+Px
+Px
+Px
+Px
+Px
+Pd
+dh
+dh
+th
+dh
+Zl
+"}
+(8,1,1) = {"
+dh
+aM
+NP
+dh
+Zl
+dh
+bQ
+Px
+Px
+Px
+Px
+Px
+Oc
+dh
+Zl
 dh
 NP
-Px
-Px
-Zp
-Px
-Px
-AD
+on
 dh
-Oc
-fT
-Oc
-dh
+JS
+JS
+JS
 Zl
-Zl
-Zl
-"}
-(21,1,1) = {"
-Zl
-Zl
-Zl
-dh
-oS
-fT
-bo
 dh
 Re
-Px
-Px
-Px
-Px
-Px
-Wd
+Re
 dh
-As
-fT
-Oc
+Px
+Px
+sw
+xZ
+FU
+Px
+Px
 dh
-Zl
-Zl
+du
+du
+dh
 Zl
 "}
-(22,1,1) = {"
-Zl
-Zl
-Zl
+(9,1,1) = {"
 dh
-oS
-fT
-oS
-dh
-Px
-Px
-Px
-Px
-Px
-Px
 aM
-dh
-Oc
-fT
-Oc
+NP
 dh
 Zl
+dh
+ci
+Px
+Px
+Px
+Px
+Px
+Pd
+dh
 Zl
+dh
+NP
+on
+dh
+JS
+JS
+JS
+Zl
+th
+GI
+GI
+dh
+Px
+Px
+Ge
+zF
+Ge
+Px
+Px
+dh
+GI
+du
+th
 Zl
 "}
-(23,1,1) = {"
-Zl
-Zl
-Zl
+(10,1,1) = {"
 dh
-JS
-fT
-JS
+aM
+NP
+dh
+dh
 dh
 Px
 Px
+Px
+Px
+Px
+Px
+Px
+dh
+dh
+dh
+NP
+on
+dh
+JS
+JS
+JS
+Zl
+th
+Re
+pD
+dh
+CQ
+Px
+zF
+wk
+zF
+Px
+TX
+dh
+No
+du
+th
+Zl
+"}
+(11,1,1) = {"
+dh
+NP
+NP
+NP
+RS
+Px
+Px
+Px
+Px
+Px
+Px
+Px
+Px
+Px
+RS
+NP
+NP
+NP
+dh
+JS
+JS
+JS
+Zl
+th
+Re
+GI
+RS
+Px
+Px
+Ge
+zF
+Ge
+Px
+Px
+RS
+GI
+du
+th
+Zl
+"}
+(12,1,1) = {"
+dh
+NP
+NP
+NP
+RS
+Px
+Px
+Px
+Px
+Px
+Px
+Px
+Px
+Px
+RS
+NP
+NP
+NP
+dh
+JS
+JS
+JS
+Zl
+th
+Re
+GI
+RS
+Px
+Px
+Gc
+nb
+yU
+Px
+Px
+RS
+GI
+du
+th
+Zl
+"}
+(13,1,1) = {"
+dh
+NP
+NP
+dh
+dh
+dh
+cV
+qm
 Px
 Px
 Px
 qm
+Wd
+dh
+dh
+dh
+NP
+NP
+dh
+JS
+JS
+JS
+Zl
+th
+GI
+pD
+dh
+CQ
+Px
+Px
+Px
+Px
+Px
+TX
+dh
+No
+du
+th
+Zl
+"}
+(14,1,1) = {"
+dh
+NP
+NP
+dh
+Zl
+dh
+dN
+Px
+Px
+us
+Px
+Px
+WW
+dh
+Zl
+dh
+NP
+NP
+dh
+JS
+JS
+JS
+Zl
+dh
+Re
+Re
+dh
+Px
+Px
+Px
+Px
+Px
+Px
+Jq
+dh
+du
+du
+dh
+Zl
+"}
+(15,1,1) = {"
+dh
+NP
+NP
+dh
+Zl
+dh
+dN
+Px
+Px
+zI
+Px
+Px
+XM
+dh
+Zl
+dh
+NP
+NP
+dh
+JS
+JS
+JS
+dh
+dh
+dh
+dh
+dh
+dh
+dh
+Px
+Kq
+Px
+dh
+dh
+dh
+dh
+dh
+dh
+dh
+"}
+(16,1,1) = {"
+dh
+NP
+NP
+dh
+Zl
+dh
+dN
+qm
+Px
+Px
+Px
+qm
+Kj
+dh
+Zl
+dh
+NP
+NP
+dh
+JS
+JS
+JS
+dh
+aM
+NP
+aM
+dh
+Px
+Px
+Px
+Px
+Px
+Px
+Px
+dh
+on
+NP
+on
+dh
+"}
+(17,1,1) = {"
+dh
+NP
+NP
+dh
+dh
+dh
+fr
+Px
+Px
+Px
+Px
+Px
+il
+dh
+dh
+dh
+Ii
+NP
+dh
+JS
+JS
+JS
+dh
+aM
+NP
+MU
+dh
+CQ
+Px
+Px
+Px
+Px
+Px
+TX
+dh
+iv
+NP
+on
+dh
+"}
+(18,1,1) = {"
+aH
+NP
+NP
+NP
+RS
+Px
+Px
+Px
+Px
+Px
+Px
+Px
+Px
+Px
+RS
+NP
+NP
+NP
+aH
+JS
+JS
+JS
+aH
+NP
+NP
+NP
+rB
+Px
+Px
+Px
+Px
+Px
+Px
+Px
+rB
+NP
+NP
+NP
+aH
+"}
+(19,1,1) = {"
+aH
+NP
+NP
+NP
+RS
+Px
+Px
+Px
+Px
+Px
+Px
+Px
+Px
+Px
+RS
+NP
+NP
+NP
+aH
+JS
+JS
+JS
+aH
+NP
+NP
+NP
+rB
+Px
+Px
+Px
+As
+Px
+Px
+Px
+rB
+NP
+NP
+NP
+aH
+"}
+(20,1,1) = {"
+dh
+aM
+NP
+dh
+dh
+dh
+Px
+Px
+Px
+Px
+Px
+Px
+Px
+dh
+dh
+dh
+NP
+on
+dh
+JS
+JS
+JS
+dh
+aM
+NP
+aM
+dh
+Zp
+Px
+Px
+AD
+Px
+Px
+Wd
+dh
+on
+NP
+on
+dh
+"}
+(21,1,1) = {"
+dh
+aM
+NP
+dh
+Zl
+dh
+Px
+Zp
+Px
+Px
+Px
+Px
+Px
+dh
+Zl
+dh
+Ii
+on
+dh
+JS
+JS
+JS
+dh
+aM
+NP
+MU
+dh
+CQ
+Px
+Px
+Px
+Px
+Px
+WW
+dh
+iv
+NP
+on
+dh
+"}
+(22,1,1) = {"
+dh
+aM
+NP
+dh
+Zl
+dh
+dh
+AD
+Px
+As
+Px
+Kq
+dh
+dh
+Zl
+dh
+NP
+on
+dh
+JS
+JS
+JS
+dh
+aM
+NP
+aM
+dh
+Px
+Px
+Px
+Px
+Px
+Px
+XM
+dh
+on
+NP
+on
+dh
+"}
+(23,1,1) = {"
+dh
+aM
+NP
+dh
+Zl
+Zl
+dh
+dh
+qI
+dh
+qI
+dh
+dh
+Zl
+Zl
+dh
+NP
+on
+dh
+JS
+JS
+JS
+dh
+xM
+NP
+xM
+dh
+Px
+Px
+Px
 jV
-dh
+Px
 ZQ
-fT
-ZQ
+Kj
 dh
-Zl
-Zl
-Zl
+NB
+NP
+NB
+dh
 "}
 (24,1,1) = {"
+dh
+bo
+bo
+dh
+Zl
+Zl
+Zl
+Zl
+Zl
+Zl
+Zl
+Zl
 Zl
 Zl
 Zl
 dh
-Fm
-Fm
-Fm
+bo
+bo
+dh
+JS
+JS
+JS
+dh
+bo
+bo
+bo
 dh
 dh
 Px
@@ -907,38 +1409,51 @@ Px
 Px
 dh
 dh
-Fm
-Fm
-Fm
+bo
+bo
+bo
 dh
-Zl
-Zl
-Zl
 "}
 (25,1,1) = {"
+dh
+zr
+zr
+dh
+Zl
+Zl
+Zl
+Zl
+Zl
+AI
+Zl
+Zl
 Zl
 Zl
 Zl
 dh
-Fp
-Fp
-Fp
+zr
+zr
+dh
+JS
+JS
+JS
+dh
+zr
+zr
+zr
+dh
+dh
+qI
+Fv
+DT
+Fv
+Fv
 dh
 dh
 zr
-Fv
-WW
 zr
-Fv
+zr
 dh
-dh
-Fp
-Fp
-Fp
-dh
-Zl
-Zl
-Zl
 "}
 (26,1,1) = {"
 Zl
@@ -947,18 +1462,34 @@ Zl
 Zl
 Zl
 Zl
+BN
+BN
+BN
+BN
+BN
+BN
+OO
 Zl
 Zl
-BN
-BN
-BN
-BN
-BN
-BN
-Kq
 Zl
 Zl
 Zl
+Zl
+JS
+JS
+JS
+Zl
+Zl
+Zl
+Zl
+Zl
+BN
+BN
+BN
+BN
+BN
+BN
+OO
 Zl
 Zl
 Zl
